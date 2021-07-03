@@ -280,19 +280,7 @@ def sum_of_n(n):
 
         return None
 
-    
-
-    res = 0
-
-    i = 0 #counter
-
-    while i <= n:
-
-        res += i
-
-        i += 1
-
-    return res
+    return int((1+n)*n / 2)
 
 
 
@@ -314,23 +302,13 @@ def sum_of_n_sqr(n):
 
     
 
-    res = 0
-
-    i = 0 #counter
-
-    while i <= n:
-
-        res += (i**2)
-
-        i += 1
-
-    return res
+    return int(n*(n+1)*(2*n+1)/6)
 
 
 
 
 
-'''Comment this and the following triple-quoted line to test your function
+#'''Comment this and the following triple-quoted line to test your function
 
 print('\n---- Part 3 ----\n')
 
@@ -358,7 +336,7 @@ print('n:', n, '  sum_of_n(n):', sum_of_n(n), '  sum_of_n_sqr(n):',
 
                                                  sum_of_n_sqr(n))
 
-'''
+#'''
 
 
 
