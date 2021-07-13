@@ -1,6 +1,5 @@
 
 # File:      hw2_1_b.py
-# Author(s): Salintip Supasanya, Xiaoyan Lu
 
 expenses = [
     '''Amount:Category:Date:Description''',
