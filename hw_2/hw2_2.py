@@ -1,5 +1,4 @@
 # File:      hw2_1_a.py
-# Author(s): Salintip Supasanya, Xiaoyan Lu
 
 print("a.")
 v1 = [1, 2, 3, 4, 5, 6]
